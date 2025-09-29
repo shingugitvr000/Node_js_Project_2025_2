@@ -72,7 +72,7 @@ public class GameAPI : MonoBehaviour
                     {
                         metal = Convert.ToInt32(responseData["metal"]),
                         crystal = Convert.ToInt32(responseData["crystal"]),
-                        deuteriurm = Convert.ToInt32(responseData["deuteriurm"]),
+                        deuteriurm = Convert.ToInt32(responseData["deuterium"]),
                         Planets = new List<PlanetModel>()
                     };
                     onSuccess?.Invoke(playerMode);
